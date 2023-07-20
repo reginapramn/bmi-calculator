@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator BMI</title>
+    <!-- <script src="coba.js"></script> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #f9f5f6">
+    <div class="container">
+      <table>
+        <tr>
+          <th colspan="2">Kalkulator BMI</th>
+        </tr>
+        <tr>
+          <td><label for="gender">Jenis Kelamin</label></td>
+          <td>
+            <input type="radio" id="laki" name="jk" />
+            <label for="laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="jk" />
+            <label for="laki">Perempuan</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="weight">Berat Badan(kg)</label></td>
+          <td><input type="text" id="weight" /></td>
+        </tr>
+        <tr>
+          <td><label for="age">Usia(tahun)</label></td>
+          <td><input type="text" id="age" /></td>
+        </tr>
+        <tr>
+          <td><label for="height">Tinggi Badan(cm)</label></td>
+          <td><input type="text" id="height" /></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button id="btn">Calculate</button></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <div id="result"></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
